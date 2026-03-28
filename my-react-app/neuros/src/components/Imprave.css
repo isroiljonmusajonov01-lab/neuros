@@ -1,0 +1,92 @@
+.gen2{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 161px;
+  height: 42px;
+  border-radius: 20px;
+  border: 1px solid rgba(182, 188, 205, 1);
+  justify-content: center;
+}
+.help{
+  font-size: 16px;
+  color: rgba(75, 81, 98, 1);
+}
+.dem{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.got{
+  width: 147px;
+  height: 42px;
+  color: white;
+  background-color: rgba(56, 127, 245, 1);
+  border-radius: 10px;
+  border: none;
+}
+.got2{
+  width: 129px;
+  height: 42px;
+  color: rgba(75, 81, 98, 1);
+  border: 1px solid rgba(182, 209, 251, 1);
+  border-radius: 10px;
+}
+.klar{
+  width: 24px;
+  height: 24px;
+}
+.ppp{
+  font-size: 16px;
+  color: rgba(28, 31, 37, 1);
+  font-weight: bold;
+}
+.all1{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 20px;
+}
+.al1:hover{
+  border-radius: 20px;
+  border: 1px solid rgba(56, 127, 245, 1);
+}
+.al1{
+  width: 355px;
+  height: 144px;
+}
+.marrr{
+  margin-left: 20px;
+}
+.allar{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.stt{
+  width: 258px;
+  height: 56px;
+  border-radius: 48px;
+  border: none;
+  background-color: white;
+  color: rgba(28, 31, 37, 1);
+  box-shadow: 20px 20px 20px rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+.video-box2 {
+  width:  1204px;
+  margin: 0 auto;
+  height: 450px;
+  border-radius: 20px;
+  background-image: url(./img/image.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 50px;
+}

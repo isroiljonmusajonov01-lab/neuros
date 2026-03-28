@@ -1,0 +1,147 @@
+.ap-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  background: #ffffff;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Badge */
+.ap-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0f4ff;
+  color: #3b6ef8;
+  border: 1px solid #d0dcff;
+  border-radius: 30px;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.ap-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+  margin: 0 0 16px;
+  line-height: 1.2;
+}
+
+/* Subtitle */
+.ap-subtitle {
+  font-size: 15px;
+  color: #6b7280;
+  text-align: center;
+  max-width: 620px;
+  line-height: 1.7;
+  margin: 0 0 48px;
+}
+
+/* Grid: 3 ustun */
+.ap-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 48px;
+}
+
+/* Card */
+.ap-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.ap-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px);
+}
+
+/* Icon */
+.ap-card-icon {
+  font-size: 24px;
+  color: #374151;
+  margin-bottom: 4px;
+}
+.ddd{
+  width: 32px;
+  height: 32px;
+}
+/* Card title */
+.ap-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+/* Card desc */
+.ap-card-desc {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Tags */
+.ap-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.ap-tag {
+  font-size: 12px;
+  color: #3b6ef8;
+  font-weight: 500;
+}
+
+.ap-tag:not(:last-child)::after {
+  content: ",";
+}
+
+/* Button */
+.ap-btn {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 30px;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.ap-btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ap-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .ap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ap-title {
+    font-size: 26px;
+  }
+}

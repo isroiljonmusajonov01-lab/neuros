@@ -1,0 +1,117 @@
+.cta-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background: linear-gradient(135deg, #3b6ef8 0%, #4f85ff 100%);
+  border-radius: 20px;
+  padding: 48px 56px;
+  overflow: hidden;
+  max-width: 1100px;
+  height: 360px;
+  margin: 0 auto;
+}
+
+/* Fon to'lqin chiziqlar */
+.cta-bg-lines {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='200' viewBox='0 0 600 200'%3E%3Cpath d='M0 150 Q150 80 300 130 Q450 180 600 100' stroke='rgba(255,255,255,0.08)' stroke-width='2' fill='none'/%3E%3Cpath d='M0 170 Q150 100 300 150 Q450 200 600 120' stroke='rgba(255,255,255,0.05)' stroke-width='2' fill='none'/%3E%3Cpath d='M0 130 Q150 60 300 110 Q450 160 600 80' stroke='rgba(255,255,255,0.06)' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  pointer-events: none;
+}
+
+/* Chap */
+.cta-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.35;
+  margin: 0;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(92.69deg, rgba(255, 255, 255, 0.13) 6.01%, rgba(255, 255, 255, 0.245) 90.83%);
+
+  color: white;
+  border: none;
+  border-radius: 16px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 251px;
+  height: 56px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cta-btn-icon {
+  font-size: 16px;
+}
+
+/* O'ng */
+.cta-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 14px 18px;
+  backdrop-filter: blur(4px);
+}
+
+.cta-feature-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.cta-feature-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.cta-feature-desc {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 680px) {
+  .cta-wrapper {
+    flex-direction: column;
+    padding: 32px 24px;
+  }
+}

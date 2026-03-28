@@ -1,0 +1,97 @@
+/* wrapper */
+.navbar-wrapper {
+  font-family: Arial, sans-serif;
+  width: 1330px;
+  margin: 0 auto;
+}
+
+/* TOP NAV */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 60px;
+  font-size: 13px;
+  color: #666;
+}
+
+.top-nav span {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.top-nav span:hover {
+  color: black;
+}
+
+/* MAIN NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  border-top: 1px solid #eee;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #555;
+  font-size: 14px;
+  position: relative;
+}
+
+.nav-links li:hover {
+  color: black;
+}
+
+/* BUTTONS */
+.navbar-right {
+  display: flex;
+  gap: 12px;
+}
+
+.demo-btn {
+  padding: 8px 16px;
+  border: 1px solid #4f8cff;
+  background: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #4f8cff;
+}
+
+.demo-btn:hover {
+  background: #f0f6ff;
+}
+
+.trial-btn {
+  padding: 8px 16px;
+  background: #4f8cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.trial-btn:hover {
+  background: #3a6fd9;
+}
+.uch {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,28 @@
+.cus{
+  font-size: 16px;
+  color: rgba(75, 81, 98, 1);
+}
+.sun{
+  width: 187px;
+  height: 48px;
+}
+.imgi2{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.imgi{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+.succ{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px
+}
